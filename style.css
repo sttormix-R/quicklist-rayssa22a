@@ -139,6 +139,10 @@ header{
             display: none;
         }
 
+        label {
+            cursor: pointer;
+        }
+
         div:has(input:checked) {
             .custom-checkbox{
                 background: var(--color-brand);
@@ -165,7 +169,7 @@ header{
         }
     }
 }
-Add commentMore actions
+
 
 .warning{
     background: var(--color-danger);
